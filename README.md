@@ -136,7 +136,7 @@ wget -O - https://snapshots.stakecraft.com/q-testnet-latest.tar | tar xf -
 ```
 ### Restart Node
 ```
-cd $HOME/testnet-public-tools/testnet-validator && docker-compose down && docker-compose up -d
+cd $HOME/testnet-public-tools/testnet-validator && docker-compose restart && docker-compose up -d
 ```
 ### Check logs
 ```
@@ -145,4 +145,6 @@ docker-compose logs -f --tail "100"
 ### Check Status Node 
 
 [Connect](https://itn.qdev.li/)  With Walet Metamask
+OR
+https://stats.qtestnet.org/
 
