@@ -147,5 +147,5 @@ docker-compose logs -f --tail "100"
 [Connect](https://itn.qdev.li/)  With Walet Metamask
 ```
 OR
-https://stats.qtestnet.org/
+[Validator](https://stats.qtestnet.org/)
 
