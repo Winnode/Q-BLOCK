@@ -142,10 +142,11 @@ cd $HOME/testnet-public-tools/testnet-validator && docker-compose restart && doc
 ```
 docker-compose logs -f --tail "100"
 ```
-### Check Status Node 
+### Check Status Node 1 
 
 [Connect](https://itn.qdev.li/)  With Walet Metamask
-```
-OR
-[Validator](https://stats.qtestnet.org/)
+
+### Check Status Node 2 
+
+[Validator](https://stats.qtestnet.org/) Search your node
 
